@@ -10,10 +10,10 @@ export class Settings implements ChartProperties, PieProperties, BarProperties {
   public type: ChartType = ChartType.BAR;
 
   // animation: fade in
-  public afid: number = 900; // duration
+  public afid: number = 0; // duration
   public afis: number = 25; // smoothness
   //animation: fade out
-  public afod: number = 900; // duration
+  public afod: number = 0; // duration
   public afos: number = 25; // smoothnes
 
   public background: string = "none";
