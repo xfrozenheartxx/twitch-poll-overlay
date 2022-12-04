@@ -31,7 +31,7 @@ export class Settings implements ChartProperties, PieProperties, BarProperties {
   public strokeMarginHeight: number;
   public strokeMarginWidth: number;
   public valueColors: string[];
-  public strokeColor: string;
+  //public strokeColor: string;
   public strokeIterations: number;
   //public fontSizeFactor: number;
   //public textRound: boolean;
@@ -41,9 +41,9 @@ export class Settings implements ChartProperties, PieProperties, BarProperties {
   public radiusFactor: number;
 
   // Font Properties
-  public fontSize: number;
-  public fontFamily: string;
-  public fontColorFactor: number;
+  //public fontSize: number;
+  //public fontFamily: string;
+  //public fontColorFactor: number;
 
   // reactions
   public reactionsJson: string = "";
