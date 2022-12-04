@@ -33,8 +33,8 @@ export class Settings implements ChartProperties, PieProperties, BarProperties {
   public valueColors: string[];
   public strokeColor: string;
   public strokeIterations: number;
-  public fontSizeFactor: number;
-  public textRound: boolean;
+  //public fontSizeFactor: number;
+  //public textRound: boolean;
 
   // Pie Properties
   public round: boolean;
