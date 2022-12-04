@@ -5,7 +5,7 @@ import { reactions, updateReactions } from "../keywords";
 
 export class Settings implements ChartProperties, PieProperties, BarProperties {
   public channel: string = null;
-  public timeout: number = 0;
+  public timeout: number = 10;
   public requiredPings: number = 5;
   public type: ChartType = ChartType.BAR;
 
@@ -26,13 +26,13 @@ export class Settings implements ChartProperties, PieProperties, BarProperties {
   public height: number;
 
   // Bar Properties
-  public barMarginHeight: number;
-  public barMarginWidth: number;
-  public strokeMarginHeight: number;
-  public strokeMarginWidth: number;
-  public valueColors: string[];
+  //public barMarginHeight: number;
+  //public barMarginWidth: number;
+  //public strokeMarginHeight: number;
+  //public strokeMarginWidth: number;
+  //public valueColors: string[];
   //public strokeColor: string;
-  public strokeIterations: number;
+  //public strokeIterations: number;
   //public fontSizeFactor: number;
   //public textRound: boolean;
 
