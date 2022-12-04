@@ -5,7 +5,7 @@ import { reactions, updateReactions } from "../keywords";
 
 export class Settings implements ChartProperties, PieProperties, BarProperties {
   public channel: string = null;
-  public timeout: number = 10*2;
+  public timeout: number = 10;
   public requiredPings: number = 5;
   public type: ChartType = ChartType.BAR;
 
