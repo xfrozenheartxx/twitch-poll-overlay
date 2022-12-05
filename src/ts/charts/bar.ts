@@ -67,11 +67,11 @@ const defaultBarProperties: BarProperties = {
   valueColors: colors,
   strokeColor: "#34495e",
   strokeIterations: 1,
-  fontSize: FONT_DYNAMIC,
-  fontFamily: "courier",
-  fontSizeFactor: 1.8,
-  fontColorFactor: 0.65,
-  textRound: true,
+  //fontSize: FONT_DYNAMIC,
+  //fontFamily: "courier",
+  //fontSizeFactor: 1.8,
+  //fontColorFactor: 0.65,
+  //textRound: true,
 };
 
 ////////////////////////////////////////////////////////////////////////
@@ -108,8 +108,8 @@ export class Bar extends Chart {
     const rectHeight: number = this.height - prop.barMarginHeight * 2;
 
     // properties
-    let fontSize = prop.fontSize;
-    if (fontSize === FONT_DYNAMIC) {
+    //let fontSize = prop.fontSize;
+    //if (fontSize === FONT_DYNAMIC) {
       fontSize = rectHeight * (2 / 3);
     }
 
