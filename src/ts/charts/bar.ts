@@ -113,9 +113,9 @@ export class Bar extends Chart {
       fontSize = rectHeight * (2 / 3);
     }
 
-    const fontMp = fontSize / prop.fontSizeFactor;
-    this.ctx.font = `${Math.round(fontSize)}px ${prop.fontFamily}`;
-    this.ctx.strokeStyle = prop.strokeColor;
+    //const fontMp = fontSize / prop.fontSizeFactor;
+    //this.ctx.font = `${Math.round(fontSize)}px ${prop.fontFamily}`;
+    //this.ctx.strokeStyle = prop.strokeColor;
 
     // stroke
     for (let j: number = 0; j < prop.strokeIterations; j++) {
