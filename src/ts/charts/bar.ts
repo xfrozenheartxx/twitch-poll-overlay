@@ -92,14 +92,14 @@ export class Bar extends Chart {
    * @param drawText Draw the percentage on top?
    * @param clear Clear the canvas before drawing?
    */
-  public draw(
-    values: number[],
+  //public draw(
+    //values: number[],
     //drawText: boolean = true,
-    clear: boolean = true
-  ): void {
+    //clear: boolean = true
+  //): void {
     // draw
-    if (clear) {
-      this.clear();
+    //if (clear) {
+      //this.clear();
     }
 
     const prop = this.properties;
