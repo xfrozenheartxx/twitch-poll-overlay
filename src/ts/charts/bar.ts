@@ -156,7 +156,7 @@ export class Bar extends Chart {
       this.ctx.fill();
       this.ctx.closePath();
 
-       draw text
+       //draw text
       if (drawText) {
         let txt: string;
         if (prop.textRound) {
