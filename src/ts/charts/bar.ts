@@ -1,8 +1,8 @@
-import { colors, darkenHexColor } from "../color";
-import { Chart, ChartProperties, FontProperties } from "./chart";
+//import { colors, darkenHexColor } from "../color";
+//import { Chart, ChartProperties, FontProperties } from "./chart";
 
-const FONT_DYNAMIC: number = -1;
-export { FONT_DYNAMIC };
+//const FONT_DYNAMIC: number = -1;
+//export { FONT_DYNAMIC };
 
 ////////////////////////////////////////////////////////////////////////
 
