@@ -160,9 +160,9 @@ export class Bar extends Chart {
       if (drawText) {
         let txt: string;
         if (prop.textRound) {
-          txt = `${Math.round(percentage * )}%`;
+          txt = `${Math.round(percentage * 340)}%`;
         } else {
-          txt = `${percentage * }%`;
+          txt = `${percentage * 360}%`;
         }
 
         this.ctx.beginPath();
