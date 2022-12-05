@@ -107,7 +107,7 @@ export class Bar extends Chart {
     const rectWidth: number = this.width - prop.barMarginWidth * 2;
     const rectHeight: number = this.height - prop.barMarginHeight * 2;
 
-    // properties
+     properties
     let fontSize = prop.fontSize;
     if (fontSize === FONT_DYNAMIC) {
       fontSize = rectHeight * (2 / 3);
@@ -131,7 +131,7 @@ export class Bar extends Chart {
     }
 
     // count the sum of all reactions
-    // let sum = val.map(c => c.value).reduce((a, c) => a + c);
+     let sum = val.map(c => c.value).reduce((a, c) => a + c);
     const sum = values.reduce((a, c) => a + c);
 
     let lastX = prop.barMarginWidth; // 50 -> starting pos
@@ -156,14 +156,14 @@ export class Bar extends Chart {
       this.ctx.fill();
       this.ctx.closePath();
 
-       //draw text
+      /draw text
       if (drawText) {
         let txt: string;
         if (prop.textRound) {
           txt = `${Math.round(percentage * 100)}%`;
-         else {
+        } else {
           txt = `${percentage * 100}%`;
-        
+        }
 
         this.ctx.beginPath();
         this.ctx.fillStyle = darkenHexColor(
