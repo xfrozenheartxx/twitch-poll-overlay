@@ -157,13 +157,13 @@ export class Bar extends Chart {
       this.ctx.closePath();
 
       // draw text
-      //if (drawText) {
-        //let txt: string;
-        //if (prop.textRound) {
-          //txt = `${Math.round(percentage * 100)}%`;
-        //} else {
-          //txt = `${percentage * 100}%`;
-        //}
+      if (drawText) {
+        let txt: string;
+        if (prop.textRound) {
+          txt = //`${Math.round(percentage * 100)}%`;
+        } else {
+          txt = //`${percentage * 100}%`;
+        }
 
         this.ctx.beginPath();
         this.ctx.fillStyle = darkenHexColor(
