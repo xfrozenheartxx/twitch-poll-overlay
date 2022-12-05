@@ -157,11 +157,11 @@ export class Bar extends Chart {
       this.ctx.closePath();
 
       // draw text
-      if (drawText) {
-        let txt: string;
-        if (prop.textRound) {
+      //if (drawText) {
+        //let txt: string;
+        //if (prop.textRound) {
           //txt = `${Math.round(percentage * 100)}%`;
-        } else {
+        //} else {
           //txt = `${percentage * 100}%`;
         }
 
