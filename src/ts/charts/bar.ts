@@ -92,15 +92,15 @@ export class Bar extends Chart {
    * @param drawText Draw the percentage on top?
    * @param clear Clear the canvas before drawing?
    */
-  public draw(
-    values: number[],
-    drawText: boolean = true,
-    clear: boolean = true
-  ): void {
+  //public draw(
+    //values: number[],
+    //drawText: boolean = true,
+    //clear: boolean = true
+  //): void {
     // draw
-    if (clear) {
-      this.clear();
-    }
+    //if (clear) {
+      //this.clear();
+    //}
 
     const prop = this.properties;
 
@@ -157,13 +157,13 @@ export class Bar extends Chart {
       this.ctx.closePath();
 
       // draw text
-      if (drawText) {
-        let txt: string;
-        if (prop.textRound) {
-          txt = `${Math.round(percentage * 100)}%`;
-        } else {
-          txt = `${percentage * 100}%`;
-        }
+      //if (drawText) {
+        //let txt: string;
+        //if (prop.textRound) {
+          //txt = `${Math.round(percentage * 100)}%`;
+        //} else {
+          //txt = `${percentage * 100}%`;
+        //}
 
         this.ctx.beginPath();
         this.ctx.fillStyle = darkenHexColor(
