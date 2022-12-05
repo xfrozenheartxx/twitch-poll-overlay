@@ -165,18 +165,18 @@ export class Bar extends Chart {
           //txt = `${percentage * 100}%`;
         }
 
-        this.ctx.beginPath();
-        this.ctx.fillStyle = darkenHexColor(
-          this.ctx.fillStyle,
-          prop.fontColorFactor
-        );
-        this.ctx.fillText(
-          txt,
-          this.x + lastX + valueWidth / 2 - (fontMp * txt.length) / 2,
-          this.y + prop.barMarginHeight + rectHeight / 2 + fontMp / 2
-        );
-        this.ctx.closePath();
-      }
+        //this.ctx.beginPath();
+        //this.ctx.fillStyle = darkenHexColor(
+          //this.ctx.fillStyle,
+          //prop.fontColorFactor
+        //);
+        //this.ctx.fillText(
+          //txt,
+          //this.x + lastX + valueWidth / 2 - (fontMp * txt.length) / 2,
+          //this.y + prop.barMarginHeight + rectHeight / 2 + fontMp / 2
+        //);
+        //this.ctx.closePath();
+      //}
 
       lastX += valueWidth;
     }
