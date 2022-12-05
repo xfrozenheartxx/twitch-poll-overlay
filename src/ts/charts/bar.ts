@@ -92,14 +92,14 @@ export class Bar extends Chart {
    * @param drawText Draw the percentage on top?
    * @param clear Clear the canvas before drawing?
    */
-  //public draw(
-    //values: number[],
-    //drawText: boolean = true,
-    //clear: boolean = true
-  //): void {
-    // draw
-    //if (clear) {
-      //this.clear();
+  public draw(
+    values: number[],
+    drawText: boolean = true,
+    clear: boolean = true
+  ): void {
+     draw
+    if (clear) {
+      this.clear();
     }
 
     const prop = this.properties;
@@ -131,7 +131,7 @@ export class Bar extends Chart {
     }
 
     // count the sum of all reactions
-    // let sum = val.map(c => c.value).reduce((a, c) => a + c);
+     let sum = val.map(c => c.value).reduce((a, c) => a + c);
     const sum = values.reduce((a, c) => a + c);
 
     let lastX = prop.barMarginWidth; // 50 -> starting pos
@@ -156,14 +156,14 @@ export class Bar extends Chart {
       this.ctx.fill();
       this.ctx.closePath();
 
-       //draw text
-      //if (drawText) {
-        //let txt: string;
-        //if (prop.textRound) {
-          //txt = `${Math.round(percentage * 100)}%`;
-        //} else {
-          //txt = `${percentage * 100}%`;
-        //}
+      /draw text
+      if (drawText) {
+        let txt: string;
+        if (prop.textRound) {
+          txt = `${Math.round(percentage * 100)}%`;
+        } else {
+          txt = `${percentage * 100}%`;
+        }
 
         this.ctx.beginPath();
         this.ctx.fillStyle = darkenHexColor(
