@@ -131,7 +131,7 @@ export class Bar extends Chart {
     }
 
     // count the sum of all reactions
-     let sum = val.map(c => c.value).reduce((a, c) => a + c);
+     //let sum = val.map(c => c.value).reduce((a, c) => a + c);
     const sum = values.reduce((a, c) => a + c);
 
     let lastX = prop.barMarginWidth; // 50 -> starting pos
