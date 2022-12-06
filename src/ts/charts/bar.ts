@@ -69,7 +69,7 @@ const defaultBarProperties: BarProperties = {
   strokeIterations: 1,
   fontSize: FONT_DYNAMIC,
   fontFamily: "courier",
-  fontSizeFactor: 0.01,
+  fontSizeFactor: 1.8,
   fontColorFactor: 0.65,
   textRound: true,
 };
