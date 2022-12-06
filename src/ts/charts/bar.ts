@@ -69,7 +69,7 @@ const defaultBarProperties: BarProperties = {
   strokeIterations: 1,
   fontSize: FONT_DYNAMIC,
   fontFamily: "courier",
-  fontSizeFactor: 1.8,
+  fontSizeFactor: 0,
   fontColorFactor: 0.65,
   textRound: true,
 };
@@ -162,7 +162,7 @@ export class Bar extends Chart {
         if (prop.textRound) {
           txt = `${Math.round(percentage * 100)}%`;
         } else {
-          txt = `${percentage * 100}%`;
+          |txt = `${percentage * 100}%`;
         }
 
         this.ctx.beginPath();
