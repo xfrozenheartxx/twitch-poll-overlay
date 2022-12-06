@@ -181,3 +181,8 @@ export class Bar extends Chart {
       lastX += valueWidth;
     }
   }
+
+  public clear(): void {
+    this.ctx.clearRect(this.x, this.y, this.width, this.height);
+  }
+}
