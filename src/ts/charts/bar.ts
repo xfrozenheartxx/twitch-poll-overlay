@@ -71,7 +71,7 @@ const defaultBarProperties: BarProperties = {
   fontFamily: "courier",
   fontSizeFactor: 1.8,
   fontColorFactor: 0.65,
-  textRound: true,
+  textRound: false,
 };
 
 ////////////////////////////////////////////////////////////////////////
