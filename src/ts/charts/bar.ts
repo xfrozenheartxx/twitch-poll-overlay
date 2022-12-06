@@ -65,7 +65,7 @@ const defaultBarProperties: BarProperties = {
   strokeMarginHeight: 5,
   strokeMarginWidth: 5,
   valueColors: colors,
-  strokeColor: "#34495e",
+  strokeColor: "#fafcff",
   strokeIterations: 1,
   fontSize: FONT_DYNAMIC,
   fontFamily: "courier",
