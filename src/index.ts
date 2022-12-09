@@ -52,4 +52,4 @@ storage.on("update", (reaction: Reaction, value: number, mode: UpdateMode) => {
 });
 
 storage.drawChart(chart);
-//animation.fade(settings.afid, settings.afis, FadeDirection.IN);
+animation.fade(settings.afid, settings.afis, FadeDirection.IN);
