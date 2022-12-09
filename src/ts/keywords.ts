@@ -8,12 +8,12 @@ let reactions: Reaction[] = [
   {
     sorting: 0,
     display: "+1",
-    keywords: ["+1", "1", "yes", "ye", "ja", "sure", "yay"],
+    keywords: ["+1", "zticma", "yes", "ye", "ja", "sure", "yay"],
   },
   {
     sorting: 2,
     display: "~",
-    keywords: ["2"],
+    keywords: ["rc"],
   },
   {
     sorting: 3,
