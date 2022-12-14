@@ -3,7 +3,7 @@
 const colors: Array<string> = [
   "",
   "#8a00ff",
-  "#72ff00",
+  "#116dff",
   "#3498db",
   "#2ecc71",
   "#1abc9c",
