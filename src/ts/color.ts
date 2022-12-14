@@ -1,7 +1,7 @@
 // colors for the charts
 // taken from: https://flatuicolors.com/
 const colors: Array<string> = [
-  "#8a00ff",
+  "",
   "#116dff",
   "#e74c3c",
   "#3498db",
