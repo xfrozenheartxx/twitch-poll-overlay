@@ -2,8 +2,8 @@
 // taken from: https://flatuicolors.com/
 const colors: Array<string> = [
   "",
-  "#c234db",
-  "#c234db",
+  "#ff0000",
+  "#ff0000",
   "#3498db",
   "#2ecc71",
   "#1abc9c",
